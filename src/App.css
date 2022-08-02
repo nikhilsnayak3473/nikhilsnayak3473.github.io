@@ -135,6 +135,10 @@ main {
   color: inherit;
 }
 
+#contact {
+  min-height: 93vh;
+}
+
 #about h1,
 #contact h1,
 #projects h1 {
