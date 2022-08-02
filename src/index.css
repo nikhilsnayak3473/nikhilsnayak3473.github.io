@@ -1,0 +1,46 @@
+:root {
+  --bg-color: #e2e5e5;
+  --bg-primary: #39424e;
+  --color-primary: #b7c9cc;
+  --bg-secondary: #f9f9f9;
+  --color-secondary: rgba(0, 0, 0, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.ws {
+  word-spacing: 10px;
+}
+
+.lh {
+  line-height: 150%;
+}
+
+.center {
+  width: 90%;
+  margin: auto;
+}
+
+.sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
